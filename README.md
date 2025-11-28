@@ -44,6 +44,7 @@ clicou em “Finalizar Compra”, mas ainda não concluiu o pagamento.
 É um evento que mostra intenção forte de compra, mas não é a compra finalizada.
 
 pageview:
+
 A visualização de uma página do site
 O início ou continuação de uma sessão
 A navegação do usuário (ex.: página do produto, homepage, carrinho, checkout)
@@ -57,6 +58,7 @@ ajuda a prever estoque necessário
 permite ações de remarketing (ex: lembrar que ele deixou itens no carrinho)
 
 order_confirmed
+
 representa o momento em que a compra é realmente concluída no e-commerce 
 o pedido foi finalizado, o pagamento aprovado e o sistema confirma a ordem.
 
