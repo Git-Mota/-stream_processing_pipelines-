@@ -1,3 +1,10 @@
+#install terraform_aws
+.terraform
+#config terraform_aws
+terraform.tfvars
+terraform.tfstate.backup
+terraform.tfstate
+.terraform.lock.hcl
 # aws config
 .aws
 
