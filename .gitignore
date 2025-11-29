@@ -1,5 +1,6 @@
 #install terraform_aws
 .terraform
+terraform
 #config terraform_aws
 terraform.tfvars
 terraform.tfstate.backup
