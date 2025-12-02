@@ -10,7 +10,7 @@ from datetime import datetime
 # ============================
 STREAM_NAME = "shoptrend-events-stream"
 REGION = "us-east-1"
-EVENTS_PER_SECOND = 20
+EVENTS_PER_SECOND = 5
 
 fake = Faker()
 kinesis = boto3.client("kinesis", region_name=REGION)

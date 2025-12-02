@@ -78,6 +78,7 @@ aws_account_id = "seu-id-aqui"
 ### Rodar Terraform
 
 ```powershell
+.\terraform\terraform.exe apply -auto-approve ** testar**
 .\terraform\terraform.exe init
 .\terraform\terraform.exe validate
 .\terraform\terraform.exe plan
