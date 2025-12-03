@@ -231,4 +231,34 @@ shoptrend-events-stream
 
 ### order_confirmed
 
-* Representa o momento em que a compra é realmente c
+* Representa o momento em que a compra é realmente concluida
+
+</details>
+<details>
+<summary>Configuração .env</summary>
+
+### Não se esqueça de criar um arquivo .env no diretório principal com as suas configurações:
+
+Exemplo do conteúdo do .env
+```
+# CONFIGURAÇÕES AWS
+AWS_REGION=<reigão da aws>
+KINESIS_STREAM_NAME= <nome do seu stream>
+
+# FREQUÊNCIA DE EVENTOS (por canal)
+
+EVENTS_PER_SECOND_MOBILE=20
+EVENTS_PER_SECOND_WEB=10
+EVENTS_PER_SECOND_SALES=2
+
+# ORIGEM DOS EVENTOS
+EVENT_ORIGIN_MOBILE=Application Mobile
+EVENT_ORIGIN_WEB=Application Web
+EVENT_ORIGIN_SALES=Sales Channel
+
+# APP SETTINGS
+LOG_LEVEL=INFO
+ENVIRONMENT=DEV
+```
+
+</details>
