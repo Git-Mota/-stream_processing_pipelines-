@@ -1,4 +1,4 @@
-# -stream_processing_pipelines-
+# Stream Processing Pipelines - AWS
 
 <details>
 <summary>Configuração CLI</summary>
@@ -40,6 +40,41 @@ Quando pedir “Default region name”, coloque por exemplo:
 
 ```
 us-east-1
+```
+
+</details>
+
+<details>
+<summary>Configuração Ambiente</summary>
+
+### Criar ambiente virtual se ainda não tiver:
+
+```bash
+python -m venv venv
+```
+
+Ativar ambiente:
+
+Windows:
+
+```
+venv\Scripts\activate.bat
+```
+Linux:
+
+```
+source venv/bin/activate
+```
+
+</details>
+
+<details>
+<summary>Configuração Dependências</summary>
+
+### Rodar comando de instalação
+
+```bash
+pip install -r requirements.txt
 ```
 
 </details>
@@ -138,17 +173,6 @@ Verifique se foi criado:
 
 ```
 shoptrend-events-stream
-```
-
-</details>
-
-<details>
-<summary>Libs</summary>
-
-Instalar bibliotecas necessárias:
-
-```bash
-pip install boto3 faker
 ```
 
 </details>
